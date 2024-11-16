@@ -25,3 +25,6 @@ def main():
 
     for y_true, y_pred in zip(y, predictions):
         print(f"{y_true:8.4f}, {y_pred:8.4f}")
+
+if __name__ == "__main__": # No borren esto
+	main()
